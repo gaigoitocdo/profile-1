@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUXURY GIRL 🎀</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #000;
+        color: #FFD700;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      }
+      .container {
+        width: 90%;
+        max-width: 800px;
+        text-align: center;
+        border: 2px solid #b4b4b4;
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #000;
+        box-shadow: 0 4px 8px #646163;
+      }
+      .title {
+        font-family: "Playfair Display", serif;
+        font-size: 3.5em;
+        color: #cfcece;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        text-shadow: 0px 4px 15px hsla(133, 100%, 50%, 0.959)
+        border: 2px solid #ffffff;
+        border: 2px solid #646163;
+        padding: 8px;
+        border-radius: 5px;
+        display: inline-block;
+        box-shadow: 0 4px 8px #00f048;
+      }
+      .personal-info {
+        background: #000;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px #646163;
+        margin-bottom: 20px;
+        border: 1px solid #646163;
+      }
+      .section-title {
+        color: #ffffff; /* Màu vàng nổi bật */
+        font-size: 1.3em;
+        margin-bottom: 12px;
+        font-weight: bold;
+        border: 2px solid #646163;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 5px 15px;
+        box-shadow: 0 4px 8px #646163;
+      }
+      .info-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 10px 0;
+        font-size: 1.0em;
+        padding: 5px;
+        color: #ffffff;
+      }
+      .info-item i {
+        color: rgb(250, 255, 250);
+        margin-right: 10px;
+        font-size: 1.2em;
+    }
+         .info-item strong {
+            color: #1dff1d; /* Màu vàng nổi bật */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng nhẹ để tạo hiệu ứng nổi */
+}
+.vip-icon {
+  position: relative;
+  left: -6px; /* Di chuyển logo sang trái */
+  top: -3px;  /* Di chuyển logo lên trên */
+}
+
+      .button-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .button {
+        background-color: #646163;
+
+
+        color: #000000;
+        padding: 10px 25px;
+        margin: 10px 5px;
+        border: 1px solid #00f048;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+        box-shadow: 0 4px 8px #00f048;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+      }
+      .button:hover {
+        background-color: #00f048;
+      }
+      .history-container {
+        display: none;
+        background: #000;
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-height: 200px;
+        overflow-y: auto;
+        text-align: left;
+        border: 2px solid #646163;
+      }
+      .history-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+        padding: 12px;
+        background-color: #1a1a1a;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 0.95em;
+        border: 1px solid #646163;
+        font-weight: 300;
+      }
+      .history-item-content {
+        flex: 1;
+        text-align: left;
+        margin-right: 5px;
+      }
+      .history-item strong {
+    color: #FFD700; /* Màu vàng nổi bật */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Đổ bóng nhẹ để tạo hiệu ứng nổi */
+}
+      .history-logo {
+    width: 55px;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #ffffff; /* Màu viền */
+    padding: 3px; /* Khoảng cách từ viền đến ảnh */
+    box-shadow: 0 4px 10px rgb(255, 255, 255)ổ bóng nhẹ */
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Luxury Girl</div>
+      <img
+        src="https://i.ibb.co/7jKpvSL/photo-2024-10-27-00-05-00-removebg-preview.png"
+        alt="VIP Logo"
+        class="vip-icon"
+        style="width: 100px; height: auto; margin-right: -60px"
+      />
+
+      <div class="personal-info">
+        <div class="section-title">Thông Tin Tài Khoản</div>
+        <div class="info-item">
+          <i class="fas fa-user"></i> <strong>BADBOY69
+        </div>
+        <div class="info-item">
+          <img
+            src="https://i.ibb.co/7jKpvSL/photo-2024-10-27-00-05-00-removebg-preview.png"
+            alt="VIP 3"
+            class="vip-icon"
+            style="width: 30px; height: auto; margin-right: 5px"
+          />
+          <strong>VIP 3
+        </div>
+        <div class="info-item">
+          <i class="fas fa-birthday-cake"></i> <strong>1996
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i> <strong> 아차산로15길
+
+        </div>
+        <div class="info-item">
+          <i class="fas fa-calendar-alt"></i>
+          <strong>26/08/2024
+        </div>
+        <div class="info-item">
+          <i class="fas fa-calendar-check"></i>
+          <strong>26/08/2025
+        </div>
+        <div class="info-item">
+          <i class="fas fa-history"></i>
+          <strong> 5 lần</strong>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-coins"></i>
+          <strong>15.000
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="button" onclick="toggleHistory()">Lịch Sử Book</button>
+        <button class="button" onclick="logout()">Đăng Xuất</button>
+      </div>
+
+      <div class="history-container" id="historyContainer">
+        <div class="section-title">Thống kê</div>
+        <div class="history-item">
+            
+          <div class="history-item-content">
+            <div><strong>Thời gian:</strong> 21/10/2024</div>
+            <div><strong>Đối tác:</strong> LYLY</div>
+            <div><strong>Số tiền:</strong> 354.000 WON</div>
+            <div><strong>Khách sạn:</strong> 서울신라호텔</div>
+          </div>
+          <img
+            src="https://i.ibb.co/QXdnxyM/photo-2024-09-20-07-47-10.jpg"
+            alt="VIP Logo"
+            class="history-logo"
+          />
+        </div>
+        <div class="history-item">
+          <div class="history-item-content">
+            <div><strong>Thời gian:</strong> 15/09/2024</div>
+            <div><strong>Đối tác:</strong> JENNY</div>
+            <div><strong>Số tiền:</strong> 78.000 WON</div>
+            <div><strong>Khách sạn:</strong> 조이풀 스테이
+            </div>
+          </div>
+          <img
+            src="https://i.ibb.co/rk6H8j5/photo-2024-10-15-22-09-20-4.jpg"
+            alt="VIP Logo"
+            class="history-logo"
+          />
+        </div>
+        <div class="history-item">
+          <div class="history-item-content">
+            <div><strong>Thời gian:</strong> 30/08/2024</div>
+            <div><strong>Đối tác:</strong> SAM</div>
+            <div><strong>Số tiền:</strong> 82.000 WON</div>
+            <div><strong>Khách sạn:</strong> 소테츠 호텔즈 더 스프라지르 서울 동대문
+            </div>
+          </div>
+          <img
+            src="https://i.ibb.co/6Rp8JpW/photo-2024-09-05-18-55-28-2.jpg"
+            alt="VIP Logo"
+            class="history-logo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script>
+        
+      function toggleHistory() {
+        const historyContainer = document.getElementById("historyContainer");
+        historyContainer.style.display =
+          historyContainer.style.display === "none" ||
+          historyContainer.style.display === ""
+            ? "block"
+            : "none";
+      }
+
+      function logout() {
+        alert("Bạn đã đăng xuất!");
+        // Thực hiện hành động đăng xuất tại đây
+      }
+    </script>
+  </body>
+</html>
